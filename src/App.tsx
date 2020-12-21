@@ -81,6 +81,57 @@ const App: FC = () => {
           </p> 
         </div>
       </ThemeProvider>
+
+      <div>
+          <h2>Buttons without Theme Provider</h2>
+          <p>
+            <Button variant="contained" size="md" color="primary">
+              Hello World
+            </Button>
+          </p>
+          <p>
+            <Button variant="contained" size="md" color="success">
+              Hello World
+            </Button>
+          </p>
+          <p>
+            <Button variant="contained" size="lg" color="warning">
+              Hello World
+            </Button>
+          </p>
+          <p>
+            <Button size="sm" variant="text">
+              Primary
+            </Button>
+          </p>
+          <p>
+            <Button>Primary</Button>
+          </p>
+          <p>
+            <Button size="lg" variant="outlined">
+              Primary
+            </Button>
+          </p>
+          <p>
+            <Button size="xl" variant="outlined">
+              Primary
+            </Button>
+          </p>
+          <p>
+            <Button size="sm">Primary</Button>
+          </p>
+          <p>
+            <Button>Primary</Button>
+          </p>
+          <p>
+            <Button size="lg">Primary</Button>
+          </p>
+          <p>
+            <Button size="xl">
+              Primary
+            </Button>
+          </p> 
+        </div>
     </StyledApp>
   )
 }
